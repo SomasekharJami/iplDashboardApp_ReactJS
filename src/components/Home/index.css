@@ -1,0 +1,76 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  .mainCon {
+    margin: 0;
+    max-width: 100vw;
+    min-height: 100vh;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bree Serif';
+    padding: 3vh;
+    padding-bottom: 5vh;
+  }
+  .logoCon {
+    display: flex;
+    align-items: center;
+  }
+  .logoImg {
+    height: 12vh;
+  }
+  .logoH {
+    color: white;
+    font-size: 10vh;
+    margin-left: 10px;
+  }
+  .secondCon {
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mainCon {
+    margin: 0;
+    max-width: 100vw;
+    min-height: 100vh;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bree Serif';
+    padding: 2vw;
+    padding-bottom: 5vh;
+  }
+  .logoCon {
+    display: flex;
+    align-items: center;
+  }
+  .logoImg {
+    height: 8vh;
+  }
+  .logoH {
+    color: white;
+    font-size: 6vh;
+    margin-left: 10px;
+  }
+  .secondCon {
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+}

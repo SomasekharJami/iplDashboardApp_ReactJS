@@ -1,0 +1,80 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  /* Write your CSS here */
+  .masterCon {
+    max-width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+  }
+  .innerCon {
+    max-width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh;
+  }
+  .teamImage {
+    width: 90vw;
+  }
+  .firCon {
+    width: 100%;
+    padding: 5vh;
+  }
+  .subH {
+    color: white;
+    font-size: 3vh;
+  }
+  .secCon {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5vh;
+  }
+}
+@media screen and (max-width: 767px) {
+  .masterCon {
+    max-width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-family: 'Bree serif';
+  }
+  .innerCon {
+    max-width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .teamImage {
+    width: 90vw;
+  }
+  .firCon {
+    width: 100%;
+    padding: 2vh;
+  }
+  .subH {
+    color: white;
+    font-size: 3vh;
+  }
+  .secCon {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

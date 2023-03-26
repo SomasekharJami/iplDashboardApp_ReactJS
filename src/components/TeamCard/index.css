@@ -1,0 +1,74 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  /* Write your CSS here */
+  .TeamLink {
+    text-decoration: none;
+  }
+  .teamImg {
+    width: 5vw;
+    margin-right: 10px;
+  }
+  .teamCardH {
+    color: white;
+    font-size: 6vh;
+  }
+  .pCon {
+    width: 25vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .TeamCon {
+    list-style: none;
+    max-width: 48vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1.2px solid #ffffff;
+    background-color: #ffffff33;
+    border-radius: 10px;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin: 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .TeamLink {
+    text-decoration: none;
+  }
+  .teamImg {
+    width: 10vw;
+    margin-right: 10px;
+  }
+  .teamCardH {
+    color: white;
+    font-size: 2vh;
+  }
+  .pCon {
+    width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .TeamCon {
+    list-style: none;
+    max-width: 40vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1.2px solid #ffffff;
+    background-color: #ffffff33;
+    border-radius: 10px;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-bottom: 10px;
+  }
+}

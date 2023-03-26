@@ -1,0 +1,85 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  /* Write your CSS here */
+  .listCon {
+    list-style: none;
+    max-width: 25vw;
+    height: 90vh;
+    background-color: #0f172a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Bree serif';
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin: 2vw;
+  }
+  .oppLogo {
+    width: 12vw;
+    height: 25vh;
+  }
+  .listH {
+    font-size: 5.5vh;
+    text-align: center;
+  }
+  .listP {
+    font-size: 3vh;
+    text-align: center;
+  }
+  .wonClass {
+    color: #18ed66;
+  }
+  .lostClass {
+    color: #e31a1a;
+  }
+}
+@media screen and (max-width: 767px) {
+  .listCon {
+    list-style: none;
+    max-width: 40vw;
+    height: 42vh;
+    background-color: #0f172a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Bree serif';
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .oppLogo {
+    width: 18vw;
+    height: 8vh;
+  }
+  .listH {
+    font-size: 2.6vh;
+    text-align: center;
+  }
+  .listP {
+    font-size: 1.5vh;
+    text-align: center;
+  }
+  .wonClass {
+    color: #18ed66;
+    font-size: 2vh;
+  }
+  .lostClass {
+    color: #e31a1a;
+    font-size: 2vh;
+  }
+}

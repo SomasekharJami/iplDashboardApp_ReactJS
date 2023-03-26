@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.mainCon {
+  max-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 4vh;
+}
+@media screen and (max-width: 767px) {
+  .mainCon {
+    max-width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 4vh;
+    text-align: center;
+  }
+}

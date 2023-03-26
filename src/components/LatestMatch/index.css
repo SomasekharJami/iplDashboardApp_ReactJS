@@ -1,0 +1,87 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  /* Write your CSS here */
+  .cardCon {
+    max-width: 100%;
+    background-color: #0f172a;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw;
+    font-family: 'Bree Serif';
+    color: white;
+  }
+  .latestH {
+    font-size: 6vh;
+  }
+  .dateH {
+    font-size: 4vh;
+  }
+  .latestP {
+    font-size: 3.2vh;
+  }
+  .inningsP {
+    font-size: 2.5vh;
+  }
+  .oneCon {
+    width: 28vw;
+  }
+  .imgCon {
+    width: 56vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .twoCon {
+    width: 28vw;
+    text-align: end;
+  }
+  .teamLogo {
+    width: 20vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .cardCon {
+    max-width: 100%;
+    background-color: #0f172a;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5vw;
+    font-family: 'Bree Serif';
+    color: white;
+  }
+  .latestH {
+    font-size: 4vh;
+  }
+  .dateH {
+    font-size: 3vh;
+  }
+  .latestP {
+    font-size: 2vh;
+  }
+  .inningsP {
+    font-size: 2.5vh;
+  }
+  .oneCon {
+    width: 60%;
+  }
+  .imgCon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #475569;
+  }
+  .twoCon {
+    width: 100%;
+  }
+  .teamLogo {
+    width: 25vw;
+  }
+}
