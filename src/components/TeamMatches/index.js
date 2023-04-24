@@ -34,11 +34,39 @@ class TeamMatches extends Component {
     this.setState({matchData: formatData, isGetting: false})
   }
 
+  getRouteClassName = () => {
+    const {match} = this.props
+    const {params} = match
+    const {id} = params
+
+    switch (id) {
+      case 'RCB':
+        return 'rcb'
+      case 'KKR':
+        return 'kkr'
+      case 'KXP':
+        return 'kxp'
+      case 'CSK':
+        return 'csk'
+      case 'RR':
+        return 'rr'
+      case 'MI':
+        return 'mi'
+      case 'SH':
+        return 'srh'
+      case 'DC':
+        return 'dc'
+      default:
+        return ''
+    }
+  }
+
   render() {
     const {isGetting, matchData} = this.state
     const {teamBannerUrl, latestMatchDetails, recentMatches} = matchData
+    const className = `team-matches-container ${this.getRouteClassName()}`
     return (
-      <div className="masterCon">
+      <div className={className}>
         {isGetting ? (
           <div data-testid="loader">
             <Loader type="Oval" color="#ffffff" height={50} width={50} />
